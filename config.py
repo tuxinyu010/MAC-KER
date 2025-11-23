@@ -28,11 +28,11 @@ llm = ChatDeepSeek(
 
 # 文件处理工具模块（仅读取指导理论）
 with open(r"theory_guided\ACT_causes.md", "r", encoding='utf-8') as f:
-    accident_chain_theory1 = f.read()
+    ACT_causes = f.read()
 
 # 文件处理工具模块（仅读取指导理论）
 with open(r"theory_guided\ACT_links.md", "r", encoding='utf-8') as f:
-    accident_chain_theory2 = f.read()
+    ACT_links = f.read()
 
 # 文件处理工具模块（仅读取分类标准）
 categories_result=[]
@@ -56,3 +56,4 @@ txt_files = sorted(
     [f for f in os.listdir(source_dir) if f.endswith(".txt")],
     key=lambda x: os.path.splitext(x)[0]  # 按文件名（不含扩展名）排序
 )
+
