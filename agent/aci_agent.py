@@ -10,7 +10,7 @@ aci_agent = create_react_agent(
 任务说明：依据下述专业理论指导框架和事故类型分类标准，请从用户输入的事故案例描述中提取直接事故原因、间接事故原因、事故类型和事故后果。
                               
 ## 专业理论指导框架
-{accident_chain_theory1}
+{ACT_causes}
 
 ## 事故类型分类标准
 {categories_result}
@@ -49,3 +49,4 @@ aci_agent = create_react_agent(
 
 """)
 )
+
