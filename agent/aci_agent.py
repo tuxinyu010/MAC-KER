@@ -13,7 +13,7 @@ aci_agent = create_react_agent(
 {ACT_causes}
 
 ## 事故类型分类标准
-{categories_result}
+{category_result}
 
 ## 输入内容
 {accident_data}
@@ -49,4 +49,5 @@ aci_agent = create_react_agent(
 
 """)
 )
+
 
