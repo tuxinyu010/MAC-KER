@@ -24,7 +24,7 @@ clr_agent = create_react_agent(
 - 和：同时存在导致事故发生的并列原因或同时存在导致原因发生的并列原因
                               
 ## 专业理论指导框架
-{accident_chain_theory2}                              
+{ACT_links}                              
 
 ##输出格式要求
 标准三元组格式：
@@ -55,3 +55,4 @@ clr_agent = create_react_agent(
 
 """)
 )
+
